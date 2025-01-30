@@ -1,3 +1,4 @@
+/*
 db = db.getSiblingDB("admin");
 
 db.createUser({
@@ -5,7 +6,7 @@ db.createUser({
   pwd: "hlanz",
   roles: [{ role: "root", db: "admin" }],
 });
-
+*/
 db = db.getSiblingDB("chat");
 
 // Crear usuario para la aplicación
