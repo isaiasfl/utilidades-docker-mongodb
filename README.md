@@ -11,7 +11,7 @@ Este proyecto configura un entorno de base de datos MongoDB con Docker, permitie
 ### 🔹 **Requisitos Previos**
 Antes de empezar, asegúrate de tener instalado:
 - Docker y Docker Compose
-- Acceso a una máquina virtual o servidor con IP fija (ej. `192.168.50.190` Recuerda, esta IP es un ejemplo. )
+- Acceso a una máquina virtual o servidor con IP fija (ej. `192.168.50.78` Recuerda, esta IP es un ejemplo. )
 
 ### 🔹 **Descargar el Proyecto**
 Clona el repositorio en la máquina donde se ejecutará MongoDB:
@@ -27,8 +27,8 @@ docker-compose up -d
 ```
 
 Esto iniciará los siguientes servicios:
-- **MongoDB** en `192.168.50.190:27017`  He SUPUESTO que la ip de la máquina que contiene el contenedor es la 192.168.50.190. Obviamente se cambiará por la **REAL**
-- **Mongo Express** en `http://192.168.50.190:8081/`
+- **MongoDB** en `192.168.50.78:27017`  He SUPUESTO que la ip de la máquina que contiene el contenedor es la 192.168.50.190. Obviamente se cambiará por la **REAL**
+- **Mongo Express** en `http://192.168.50.78:8081/`
 
 ## 📌 2. Acceso a MongoDB
 
